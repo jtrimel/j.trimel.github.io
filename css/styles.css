@@ -10830,3 +10830,25 @@ textarea.form-control-lg {
   background-position: center;
   background-size: cover;
 }
+
+.canva-embed-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 56.2500%;
+  padding-bottom: 0;
+  box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
+  overflow: hidden;
+  will-change: transform;
+}
+
+.canva-embed {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: none;
+  padding: 0;
+  margin: 0;
+}

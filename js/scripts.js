@@ -17,11 +17,14 @@ document.addEventListener("DOMContentLoaded", function () {
             // Example: Add a class based on the current page
             if (window.location.pathname.includes("index.html")) {
                 document.getElementById("nav-link-home").classList.add("active");
-                document.getElementById("nav-link-galery").classList.remove("active")
-            } else if (window.location.pathname.includes("products.html")) {
-                document.getElementById("nav-link-galery").classList.add("active");
-                document.getElementById("nav-link-home").classList.remove("active")
-            } else {
+            } else if (window.location.pathname.includes("oznamenia.html")) {
+                document.getElementById("nav-link-oznamenia").classList.add("active");
+            } else if (window.location.pathname.includes("hostina.html")) {
+                document.getElementById("nav-link-hostina").classList.add("active");
+            } else if (window.location.pathname.includes("kontakt.html")) {
+                document.getElementById("nav-link-kontakt").classList.add("active");
+            } 
+            else {
                 headerDiv.classList.add("default-header");
             }
         })

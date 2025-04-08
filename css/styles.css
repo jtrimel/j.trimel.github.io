@@ -247,6 +247,7 @@ sup {
 a {
   color: var(--bs-link-color);
   text-decoration: underline;
+  font-weight: bold;
 }
 a:hover {
   color: var(--bs-link-hover-color);
@@ -489,6 +490,11 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
 }
 
 .display-1 {
